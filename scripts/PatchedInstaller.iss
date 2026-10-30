@@ -1,9 +1,9 @@
 ; This is a new installer, not a reconstruction of the vendor's setup code.
 [Setup]
 AppId=UnlimitedTickTick.Windows.Patched
-AppName=TickTick Patched
+AppName=TickTick
 AppVersion={#AppVersion}
-DefaultDirName={localappdata}\Programs\TickTick Patched
+DefaultDirName={localappdata}\Programs\TickTick
 PrivilegesRequired=lowest
 ArchitecturesAllowed=x64compatible
 ArchitecturesInstallIn64BitMode=x64compatible
@@ -23,5 +23,5 @@ Source: "{#PayloadDir}\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs
 Name: "desktopicon"; Description: "Create a desktop shortcut"; Flags: unchecked
 
 [Icons]
-Name: "{autoprograms}\TickTick Patched"; Filename: "{app}\TickTick.exe"
-Name: "{autodesktop}\TickTick Patched"; Filename: "{app}\TickTick.exe"; Tasks: desktopicon
+Name: "{autoprograms}\TickTick"; Filename: "{app}\TickTick.exe"
+Name: "{autodesktop}\TickTick"; Filename: "{app}\TickTick.exe"; Tasks: desktopicon

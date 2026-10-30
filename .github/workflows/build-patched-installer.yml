@@ -65,6 +65,6 @@ jobs:
           draft: true
           body: |
             Unsigned, independently repackaged installer for Windows x64.
-            Installs per-user into a separate TickTick Patched directory.
+            Installs per-user into a separate TickTick directory.
             Original setup hooks, prerequisite installation and protocol registration are not preserved.
             Application updates can replace the patched executable.
